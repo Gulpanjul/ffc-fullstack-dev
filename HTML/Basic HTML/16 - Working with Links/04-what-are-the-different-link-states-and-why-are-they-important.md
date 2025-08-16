@@ -1,4 +1,3 @@
-<!-- markdownlint-disable-next-line MD033 MD041 -->
 <div align="center">
 
 ## What Are the Different Link States, and Why Are They Important?
