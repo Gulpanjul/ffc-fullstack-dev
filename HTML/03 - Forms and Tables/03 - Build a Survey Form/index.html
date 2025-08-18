@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio at
+      eum dolore corrupti minima natus?
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name</label>
+        <input id="name" type="text" required placeholder="name" />
+        <label id="email-label">Email</label>
+        <input id="email" type="email" required placeholder="email" />
+        <label id="number-label">Number</label>
+        <input
+          id="number"
+          type="number"
+          min="10"
+          max="30"
+          placeholder="number"
+        />
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option value="option-1">Option 1</option>
+          <option value="option-2">Option 2</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label id="radio">Radio</label>
+        <input type="radio" value="radio" name="radio" />
+        <input type="radio" value="radio" name="radio" />
+      </fieldset>
+      <fieldset>
+        <label id="checkbox">Checkbox</label>
+        <input type="checkbox" value="checkbox" />
+        <input type="checkbox" value="checkbox" />
+      </fieldset>
+      <textarea></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
